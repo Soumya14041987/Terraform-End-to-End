@@ -84,4 +84,3 @@ Follow the prompts to enter:
     └── alb_ingress/       # ALB ingress controller module
 ```
 
-[Rest of the README content remains the same...]
