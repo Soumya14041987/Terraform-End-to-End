@@ -51,3 +51,9 @@ variable "instance_types" {
   type        = list(string)
   default     = ["t3.medium"]
 }
+
+variable "alb_controller_version" {
+  description = "Version of the AWS Load Balancer Controller to deploy"
+  type        = string
+  default     = "1.5.3"
+}
