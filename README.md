@@ -58,24 +58,8 @@ brew install kubectl
 brew install helm
 ```
 
-#### Windows (PowerShell)
-```powershell
-# Install AWS CLI
-winget install -e --id Amazon.AWSCLI
-
-# Install Terraform
-winget install -e --id Hashicorp.Terraform
-
-# Install kubectl
-winget install -e --id Kubernetes.kubectl
-
-# Install helm
-winget install -e --id Helm.Helm
-```
-
 ### Configure AWS Credentials
 
-For all operating systems:
 ```bash
 aws configure
 ```
